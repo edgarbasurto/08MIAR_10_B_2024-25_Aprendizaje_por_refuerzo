@@ -24,7 +24,7 @@ El agente implementa las siguientes características:
 - Red neuronal convolucional para procesar imágenes de entrada (84x84 píxeles)
 - Replay buffer para experiencia
 - Política epsilon-greedy para exploración
-- Actualización del modelo de destino (`target network`) de forma periódica
+- Actualización del modelo de destino (`modelo_final.pth`) de forma periódica
 - Preprocesamiento de frames (grayscale + resize + stack)
 
 ### 3. Entrenamiento del agente
