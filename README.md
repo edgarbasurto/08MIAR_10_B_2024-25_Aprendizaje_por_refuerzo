@@ -5,7 +5,7 @@ Universidad Internacional de Valencia (VIU)
 
 ## Descripción del Proyecto
 
-Este proyecto consiste en el desarrollo e implementación de un agente inteligente basado en el algoritmo Deep Q-Network (DQN) para jugar el entorno `SpaceInvaders-v0` de OpenAI Gym. El objetivo principal es que el agente alcance una **recompensa media superior a 20 puntos** en modo de test, lo cual se considera el criterio mínimo de éxito.
+Este proyecto consiste en el desarrollo e implementación de un agente inteligente basado en el algoritmo Deep Q-Network (DQN) para jugar el entorno `ALE/SpaceInvaders-v5` de OpenAI Gym. El objetivo principal es que el agente alcance una **recompensa media superior a 20 puntos** en modo de test, lo cual se considera el criterio mínimo de éxito.
 
 ## Autores
 
@@ -50,6 +50,6 @@ pip install matplotlib
 - Se analizaron las recompensas acumuladas y se visualizaron episodios para validar el comportamiento aprendido.
 
 ## Consideraciones
-- El entorno SpaceInvaders-v0 requiere renderizado por frames, lo cual puede no ser soportado directamente en Google Colab.
+- El entorno SpaceInvaders-v5 requiere renderizado por frames, lo cual puede no ser soportado directamente en Google Colab.
 - Se recomienda ejecutar las pruebas visuales en local para una experiencia más fluida.
 
